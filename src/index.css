@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.green-btn{
+  @apply w-[200px] rounded-md font-medium my-6 mx-auto py-3
+}
+
+.header-1{
+  @apply md:text-5xl sm:text-4xl text-xl
+}
+
+.card{
+  @apply w-full shadow-xl flex flex-col p-4 rounded-lg hover:scale-105 duration-300
 }

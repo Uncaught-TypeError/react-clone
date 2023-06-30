@@ -1,4 +1,4 @@
-# React inspired Websites "Ain1"
+# React inspired Website "Ain1"
 ![localhost_3000_ (1)](https://github.com/Uncaught-TypeError/react-clone/assets/95492327/61bee1f3-147f-4738-bbc2-274ef74bebeb)
 
 # Getting Started with Create React App
